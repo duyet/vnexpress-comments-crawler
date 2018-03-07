@@ -1,0 +1,23 @@
+{
+  "name": "vnexpress-comments-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duyetdev/vnexpress-comments-crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duyetdev/vnexpress-comments-crawler/issues"
+  },
+  "homepage": "https://github.com/duyetdev/vnexpress-comments-crawler#readme",
+  "dependencies": {
+    "x-ray": "^2.3.2",
+    "x-ray-phantom": "^1.0.1"
+  }
+}
