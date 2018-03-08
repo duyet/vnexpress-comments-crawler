@@ -42,7 +42,7 @@ comment_data.forEach(c => {
 	row = [];
 	for (var f of fields) {
 		var cell = "" + c[f];
-		cell = cell.split('"').join('\\"');
+		cell = cell.split('"').join("'");
 		row.push('"' + cell + '"');
 	}
 	dataToWrite += row.join(", ") + "\n";
