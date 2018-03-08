@@ -41,8 +41,9 @@ dataToWrite += row.join(", ") + "\n";
 comment_data.forEach(c => {
 	row = [];
 	for (var f of fields) {
-		var cell = "" + c[f]
-		row.push('"' + cell.replace('"', '\\"') + '"');
+		var cell = "" + c[f];
+		cell = cell.split('"').join('\\"');
+		row.push('"' + cell + '"');
 	}
 	dataToWrite += row.join(", ") + "\n";
 })
