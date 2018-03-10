@@ -22,7 +22,8 @@ comments.forEach(c => {
 		comment_id: c.comment_id,
 		content: c.content,
 		userlike: c.userlike,
-		label: -1
+		article_id: c.article_id,
+		label: 0
 	})
 })
 
