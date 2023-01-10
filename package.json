@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/duyetdev/vnexpress-comments-crawler#readme",
   "dependencies": {
-    "x-ray": "^2.3.2"
+    "x-ray": "^2.3.4"
   }
 }
